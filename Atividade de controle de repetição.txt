@@ -1,4 +1,4 @@
-              
+               
                               Atividade de Controle de Repetição ( 1 á 10 )
 
 
@@ -114,7 +114,7 @@ Ano = Ano + 1
 	 
 	print("Ano :", Ano)
 
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 #Questão 05 :
 #Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operação.
@@ -165,3 +165,108 @@ print(list( range (1 , 21 , 1)))
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
+#Questão 07 :
+
+#Faça um programa que leia 5 números e informe o maior número.
+
+# Leituras dos cincos numeros :
+
+
+Num_1 = int(input("Insira o 1° numero :"))
+
+Num_2 = int(input("Insira o 2° numero :"))
+
+Num_3 = int(input("Insira o 3° numero :"))
+
+Num_4 = int(input("Insira o 4° numero :"))
+
+Num_5 = int(input("Insira o 5° numero :"))
+
+
+
+#Informaar o maior numero entre eles 
+
+if  Num_1 > Num_2 and Num_1 > Num_3 and Num_1 > Num_4  and Num_1 > Num_5 :
+    
+	print("Esse é o maior numero entre eles:" , Num_1)
+
+elif ( Num_2 > Num_1 and Num_2 > Num_3 and Num_2 > Num_4 and Num_2 > Num_5):
+    
+	print("Esse é o maior numero entre eles:" , Num_2)
+
+elif ( Num_3 > Num_1 and Num_3 > Num_2 and Num_3 > Num_4 and Num_3 > Num_5):
+   
+	 print("Esse é o maior numero entre eles:" , Num_3)
+
+elif (Num_4 > Num_1 and Num_4 > Num_2 and Num_4 > Num_3 and Num_4 > Num_5):
+    
+	print("Esse é o maior numero entre eles:" , Num_4)
+
+else:
+    
+	print("Esse é o maior numero entre eles:" , Num_5)
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+#Questão 08 :
+
+#Faça um programa que leia 5 números e informe a soma e a média dos números.
+
+
+Num_1 = int(input("Insira o 1° numero :"))
+
+Num_2 = int(input("Insira o 2° numero :"))
+
+Num_3 = int(input("Insira o 3° numero :"))
+
+Num_4 = int(input("Insira o 4° numero :"))
+
+Num_5 = int(input("Insira o 5° numero :"))
+
+
+
+#Mostrando a soma e a média dos números 
+
+Soma  = (Num_1 + Num_2 + Num_3 + Num_4 + Num_5)
+
+print("A soma é :" , Soma)
+
+Média = (Soma / 5)
+print("A média é :" , Média)
+print("A média é :" , Média)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+#Questão 09 :
+
+#Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
+
+
+numero = 1
+
+while (numero >= 0 and numero < 50):
+    
+	numero = numero + 2
+    
+	print(numero)
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+#Questão 10 :
+
+#Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles.
+
+
+
+Num_1 = int(input("Digite o 1° numero :"))
+
+Num_2= int(input("Digite o 2° numero:"))
+
+for entreN in range(Num_1 , Num_2 , 1):
+    
+	print(entreN)
+
+                 
+-------------------------------------------------------------------------------------------------------------------------------------------
